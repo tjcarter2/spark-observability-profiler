@@ -27,8 +27,8 @@ Manual approach:
 
 Automated approach:
 - Download this repo locally
-- Synch local repo to Databricks workspace using a command like databricks sync <local-directory-path> <workspace-destination-path>
-- Deploy to Databricks apps using CLI or Terraform with command like databricks apps deploy mcp-emr-parser --source-code-path <workspace-destination-path>
+- Synch local repo to Databricks workspace using a command like databricks sync {local-directory-path} {workspace-destination-path}
+- Deploy to Databricks apps using CLI or Terraform with command like databricks apps deploy mcp-emr-parser --source-code-path {workspace-destination-path}
 
 
 ### Create service credential using an IAM role that has read access to where raw spark logs are stored/ access to subset of EMR APIs
